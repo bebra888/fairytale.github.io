@@ -1,0 +1,92 @@
+.number-text {
+  position: absolute;
+  bottom: 12%;
+  left: 46.7%;
+  z-index: 3;
+  font-size: 2.5vw;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  opacity: -1;
+}
+
+.photo-style {
+  max-height: 605px;
+  filter: brightness(85%);
+  width: 100%;
+}
+
+.button-play {
+  top: 36%;
+  right: 44%;
+  position: absolute;
+  width: 14%;
+  z-index: 3;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+
+.pause-button {
+  top: 36%;
+  right: 44%;
+  position: absolute;
+  width: 14%;
+  z-index: 2;
+  transition: opacity 0.5s;
+  display: none;
+}
+
+.card {
+  max-width: 1000px;
+  padding: 0px 15px;
+  position: relative;
+  margin: 0px auto;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 10px 15px rgb(59, 59, 59);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.button-next1 {
+  left: 6%;
+  bottom: 11%;
+  position: absolute;
+  width: 9%;
+  z-index: 2;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+
+.button-next2 {
+  right: 6%;
+  bottom: 11%;
+  position: absolute;
+  width: 9%;
+  z-index: 2;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+
+.button-musical {
+  height: 10%;
+  width: 5%;
+  position: absolute;
+  right: 4%;
+  top: 5%;
+  opacity: 0;
+}
+
+.button-arrow {
+  width: 3%;
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  opacity: 0;
+}
+
+.k-spisky {
+  width: 12%;
+  top: 5.6%;
+  left: 8%;
+  position: absolute;
+  opacity: 0;
+}

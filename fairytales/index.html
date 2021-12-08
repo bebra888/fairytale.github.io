@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>kolobok</title>
+
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+      body {
+        background: url(/assets/images/фон.jpg) no-repeat;
+        background-size: cover;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div>
+        <p id="number" class="number-text"></p>
+
+        <img id="slideImage" class="photo-style" src="" alt="kol" />
+
+        <img
+          src="/assets/images/pause 1.png"
+          class="pause-button"
+          id="pause"
+          alt="pause"
+          onclick="onButtonPause()"
+        />
+
+        <img
+          onclick="onButtonPlay();"
+          id="play"
+          class="button-play"
+          src="/assets/images/play 1.png"
+          alt="play"
+        />
+
+        <audio id="audioblock" src=""></audio>
+      </div>
+
+      <img
+      id="next"
+        onclick="onPreviousClick()"
+        class="button-next1"
+        src="/assets/images/стрелка влево.png"
+      />
+
+      <img
+      id="next2"
+        onclick="onNextClick()"
+        class="button-next2"
+        src="/assets/images/стрелка вправо.png"
+      />
+
+      <img
+      id="zvuk"
+        class="button-musical"
+        src="/assets/images/musical-note 1.png"
+        alt="button"
+        height="50"
+        width="50"
+      />
+
+      <img
+      id="arrow"
+        class="button-arrow"
+        src="/assets/images/Vector (1).png"
+        
+      />
+
+      <img
+      id="spisok"
+        class="k-spisky"
+        src="/assets/images/К списку сказок.png"
+        width="5%"
+      />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
